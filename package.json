@@ -1,0 +1,40 @@
+{
+  "name": "gitbook-plugin-ba",
+  "version": "0.0.1",
+  "description": "gitbook 百度统计(tongji.baidu.com) plugin",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/gismanli/gitbook-plugin-ba.git"
+  },
+  "engines": {
+    "gitbook": "*"
+  },
+  "gitbook": {
+    "properties": {
+      "token": {
+        "description": "Token for Baidu analysis(tongji.baidu.com)",
+        "required": true,
+        "type": "string"
+      }
+    }
+  },
+  "homepage": "https://github.com/gismanli/gitbook-plugin-ba",
+  "keywords": [
+    "gitbook",
+    "plugin",
+    "baidu",
+    "analyze",
+    "analysis",
+    "tongji.baidu.com"
+  ],
+  "author": "gismanli@163.com",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/gismanli/gitbook-plugin-ba/issues"
+  },
+  "homepage": "https://github.com/gismanli/gitbook-plugin-ba#readme"
+}
